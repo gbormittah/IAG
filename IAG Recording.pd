@@ -7,7 +7,7 @@
 #X msg 549 574 stop;
 #X obj 480 551 del 1000;
 #X obj 538 640 writesf~ 2;
-#X msg 542 521 open burning.wav;
+#X msg 542 521 open chooseafilename.wav;
 #X connect 0 0 6 0;
 #X connect 0 1 6 1;
 #X connect 1 0 6 0;
