@@ -1,13 +1,15 @@
 #N canvas 0 22 1280 752 10;
 #X declare -lib motex;
 #X obj 237 91 iag~;
-#X msg 548 596 print;
+#X msg 569 574 print;
 #X msg 480 520 bang;
-#X msg 547 552 start;
-#X msg 549 574 stop;
+#X msg 559 524 start;
+#X msg 565 549 stop;
 #X obj 480 551 del 1000;
 #X obj 538 640 writesf~ 2;
-#X msg 542 521 open chooseafilename.wav;
+#X msg 554 500 open chooseafilename.wav;
+#X text 468 479 Click open object followed by start to begin recording
+;
 #X connect 0 0 6 0;
 #X connect 0 1 6 1;
 #X connect 1 0 6 0;
