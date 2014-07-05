@@ -1,4 +1,4 @@
-IAG 1.0
+IAG 0.1
 ===
 
 Intelligent Ambience Generator - Using procedural audio to create realistic environments.

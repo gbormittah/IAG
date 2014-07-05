@@ -27,9 +27,9 @@
 12 -262130 -1 -1 0 1;
 #X obj 756 785 *~;
 #X obj 1000 784 *~;
-#X text 352 108 Intelligent Ambience Generator 1;
 #X obj 1171 774 outlet~ left;
 #X obj 1288 777 outlet~ right;
+#X text 352 108 Intelligent Ambience Generator 0.1;
 #X connect 3 0 8 0;
 #X connect 3 1 10 0;
 #X connect 4 0 7 0;
@@ -65,7 +65,7 @@
 #X connect 23 0 24 1;
 #X connect 23 0 25 1;
 #X connect 24 0 0 0;
-#X connect 24 0 27 0;
+#X connect 24 0 26 0;
 #X connect 25 0 0 1;
-#X connect 25 0 28 0;
+#X connect 25 0 27 0;
 #X coords 0 -1 1 1 750 320 1 100 100;
