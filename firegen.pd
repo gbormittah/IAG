@@ -1,0 +1,18 @@
+#N canvas 0 22 1280 752 10;
+#X obj 567 228 noise~;
+#X obj 513 285 crackles;
+#X obj 580 284 hiss;
+#X obj 627 284 flames;
+#X obj 519 326 *~ 0.2;
+#X obj 582 328 *~ 0.3;
+#X obj 640 323 *~ 0.6;
+#X obj 583 383 outlet~;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 6 0;
+#X connect 4 0 7 0;
+#X connect 5 0 7 0;
+#X connect 6 0 7 0;
